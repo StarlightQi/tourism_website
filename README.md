@@ -8,31 +8,31 @@
 
 - 首页，主要有导航栏，车票详情查询区域，以及底部的热门，景区。和底部栏信息。
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/1.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/1.png)
 
 - 出行方式，主要有选择要出行方式的购票 窗口，以及该出行方式的热门路线即路线推荐等
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/2.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/2.png)
 
 - 查询页面 主要包含，查询输入框，以及查询信息数据的展示等
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/3.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/3.png)
 
 - 酒店预订包括了，展示要查询地区的酒店信息等数据，以及酒店的服务等
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/4.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/4.png)
 
 - 温馨服务主要提供了，失物招领等信息。
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/5.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/5.png)
 
 - 更多提供了，会员的开通，和展示会员的特殊服务信息
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/6.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/6.png)
 
 - 登录注册，给用过提供登录信息。
 
-  ![](https://github.com/liuxingzhumeng/tourism_website/tree/master/show/7.png)
+  ![](https://github.com/liuxingzhumeng/tourism_website/blob/master/show/7.png)
 
 
 
