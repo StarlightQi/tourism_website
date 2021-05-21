@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+body{
+    min-width: 1480px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+/* 页面的头部公共部分*/
+.choose-nav{
+    width: 100px;
+    height: 30px;
+    background-color: #1e5f82;
+    text-align: center;
+}
+
+.header{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+}
+.logo{
+    margin: 20px 0 auto 100px;
+    width: 450px;
+    float: left;
+
+}
+
+.search{
+    margin-top: 36px;
+    width: 400px;
+    float: left;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+}
+
+.search button{
+    width: 80px;
+    height: 33px;
+    background: #2D93CA;
+    border-style: none;
+    outline: none;
+}
+
+.login{
+    float: left;
+    margin: 38px auto auto 100px;
+}
+
+.login a{
+    margin-left: 20px;
+}
+
+
+/* main */
+
+.main{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.nav{
+    height: 50px;
+    background-color: #2D93CA;
+}
+
+.nav-item li{
+    float: left;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*尾部*/
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #323232;
+    color: white;
+}
+.friend{
+    height: 30px;
+    line-height: 50px;
+    margin-left: 500px;
+
+}
+
+.friend a{
+    color: white;
+}
+.friend li{
+
+    margin-left: 100px;
+    float: left;
+}
+a{
+    color: white;
+}
+
+.title-bar{
+    height: 43px;
+    margin-top: 10px;
+    background-color: #2D93CA;
+    color: white;
+    line-height: 43px;
+}
+
+.box-car{
+    width: 326px;
+    height: 100%;
+    margin-top: 30px;
+    overflow: paged-y-controls;
+    cursor: pointer;
+    display: inline-flex;
+}

@@ -1,0 +1,94 @@
+.box{
+    height: 400px;
+    margin-top: 10px;
+    background-image: url("../img/trip.jpg");
+    background-size: cover;
+}
+.box-find{
+    float: left;
+    width: 300px;
+    height: 360px;
+    background-color: #2D93CA;
+    margin: 30px;
+    border-radius: 10px;
+}
+.box-nav li{
+    float: left;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.box-from li{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.box-from a{
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 3px;
+    background: #f78d39;
+    line-height: 30px;
+    color: white;
+}
+
+.box-title{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.box-info{
+    width: 100%;
+    height: 88%;
+    background-color: white;
+    border-radius: 10px;
+}
+.title-bar{
+    height: 43px;
+    margin-top: 10px;
+    background-color: #2D93CA;
+    color: white;
+    line-height: 43px;
+}
+
+.hot-trip{
+    margin-top: 20px;
+    border: 1px solid #DEDEDE;
+}
+
+.box-car{
+    width: 326px;
+    height: 100%;
+    margin-top: 30px;
+    overflow: paged-y-controls;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+
+
+.show-text ul{
+    width: 100%;
+}
+.show-text li{
+    display: inline-table;
+    margin-left: 150px;
+    margin-top: 22px;
+}
+
+.show-text div {
+    margin-top: 30px;
+}
+
+.show-text span{
+    display: inline-table;
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #a1a1a1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.show-text em{
+    color: #ff933a;
+}

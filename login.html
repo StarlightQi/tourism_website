@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<!-- 顶部导航-->
+<div class="top-nav w">
+    <div class="logo top-mid">
+        <a href="index.html">
+            <img style="float: left" src="img/logo.png"><div><span style="font-size: 30px">&emsp;驴稷网</span><br>“驴”你一起 程序天下</div>
+        </a>
+    </div>
+    <span class="tit top-left-mid">驴稷网 登录</span>
+</div>
+<div class="main w">
+    <div class="login">
+        <div class="login-nav" id="loginNav">
+            <a href="JavaScript:;" class="login-ch">账号登录</a>
+            <a href="JavaScript:;">邮箱登录</a>
+            <a href="JavaScript:;">二维码登录</a>
+        </div>
+        <div class="z-login" id="login0">
+            <form action="" method="post">
+                <ul>
+                    <li> <label> 账号<input type="text"></label></li>
+                    <li><label> 密码<input type="password"></label></li>
+                    <li><label> <input type="submit" value="提交"></label></li>
+                </ul>
+            </form>
+        </div>
+        <div class="e-login" style="display: none" id="login1">
+            <ul>
+                <li><label> 邮箱&emsp;<input type="email"></label></li>
+                <li><label>验证码<input type="text" ></label></li>
+                <li><button type="submit">登录</button></li>
+            </ul>
+        </div>
+        <div class="s-login" id="login2" style="display:none;"><div id="qr"></div></div>
+    </div>
+</div>
+
+<div class="footer">
+    <div>
+        <p style="text-align: center">
+            <span class="mr">版权所有©2008-2020</span>
+            <span>中国驴稷网有限公司</span>
+        </p>
+    </div>
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>

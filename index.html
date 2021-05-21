@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>驴稷网</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div>
+    <div class="header">
+        <div class="logo"><img style="float: left" src="img/logo.png"><div><span style="font-size: 30px">&emsp;驴稷网</span><br>“驴”你一起 程序天下</div></div>
+        <div class="search"><input type="text" placeholder="搜索车票/餐饮/常旅客/相关规章"><button>搜索</button></div>
+        <div class="login"><a href="login.html" style="color: black">登录 </a> <a href="register.html" style="color: black">注册</a></div>
+    </div>
+
+    <div class="main">
+        <div class="nav">
+            <ol class="nav-item">
+                <li class="choose-nav"><a href="index.html">首页</a></li>
+                <li>
+                    <select onchange="location.href='trip.html'">
+                        <option>出行方式</option>
+                        <option>飞机</option>
+                        <option>轮船</option>
+                        <option>高铁</option>
+                        <option>火车</option>
+                        <option>大巴</option>
+                    </select>
+                </li>
+                <li><a href="search.html">查询</a></li>
+                <li><a href="hotels.html">酒店预订</a></li>
+                <li><a href="fund.html">温馨服务</a></li>
+                <li><a href="more.html">更多>></a></li>
+            </ol>
+        </div>
+        <div class="search-into">
+            <div class="search-card">
+<!--                车票查询-->
+                <div class="search-car">
+                    <div class="search-header">车票查询</div>
+                    <ul style="width: 100px;float: left" class="search-ul">
+                        <li class="choose" id="dan">单程</li>
+                        <li id="back">返程</li>
+                        <li id="con">继续换乘</li>
+                        <li id="re">退改签</li>
+                    </ul>
+                    <div id="info-car">
+                            <ul>
+                                <li>查询类型：<input type="radio" name="d" id="dr"> <label for="dr">订票日期</label>
+                                    <input type="radio" name="d" id="cr"><label for="cr">乘车日期</label></li>
+                                <li>开始日期：<input type="date"></li>
+                                <li>结束日期：<input type="date"></li>
+                                <li>关键字：<input type="text"></li>
+                                <li><a href="JavaScript:void(0)">查询</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20px;border-bottom-style: solid;border-bottom-color: rgba(156,156,156,0.87)">
+            热门景区
+            <a href="JavaScript:void(0)" style="float: right;color: #333333">更多>></a>
+        </div>
+        <div class="hot">
+            <div class="box">
+                <div class="show">
+                    <img src="img/xibu.jpg">
+                    <div> “环西部火车游” 高品质旅游版专线列车</div>
+                    <div style="color: #f78d39;text-align: left">￥ 1000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="show">
+                    <img src="img/xianzhu.jpg">
+                    <div> “环西部火车游”人文始祖天水两日游</div>
+                    <div style="color: #f78d39;text-align: left">￥ 2200</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="show">
+                    <img src="img/qhh.jpg">
+                    <div> “环西部火车游” 青海湖、茶卡2日>游</div>
+                    <div style="color: #f78d39;text-align: left">￥ 1200</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="show">
+                    <img src="img/gd.jpg">
+                    <div> “环西部火车游”嘉敦5日游</div>
+                    <div style="color: #f78d39;text-align: left">￥ 6000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="friend">
+        <ul >
+            <li>友情链接：</li>
+            <li><a href="https://www.ctrip.com/">携程</a></li>
+            <li><a href="https://www.suanya.cn/">智行</a></li>
+            <li><a href="https://www.qunar.com">去哪儿旅行</a></li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <p style="text-align: center">
+            <span class="mr">版权所有©2008-2020</span>
+            <span>中国驴稷网有限公司</span>
+        </p>
+    </div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

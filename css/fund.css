@@ -1,0 +1,40 @@
+.box-from{
+    height: 60px;
+    width: 98%;
+    margin: 20px auto;
+    background-color: #f8f8f8;
+}
+.box-from li{
+    float: left;
+    color: #1e5f82;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.my-box{
+    display: inline-table;
+    width: 300px;
+    height: 200px;
+    border: silver solid;
+    margin-top: 20px;
+}
+
+.my-box-title{
+    text-align: center;
+    line-height: 40px;
+    border-bottom: silver solid;
+    width: 260px;
+    margin: auto;
+}
+.my-box-info{
+    width: 290px;
+    margin:10px auto;
+
+}
+.box-bm{
+    margin-top: 25%;
+    margin-left: 60%;
+    color: red;
+}

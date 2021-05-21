@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>出行方式</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/trip.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo"><img style="float: left" src="img/logo.png"><div><span style="font-size: 30px">&emsp;驴稷网</span><br>“驴”你一起 程序天下</div></div>
+    <div class="search"><input type="text" placeholder="搜索车票/餐饮/常旅客/相关规章"><button>搜索</button></div>
+    <div class="login"><a href="login.html" style="color: black">登录 </a> <a href="register.html" style="color: black">注册</a></div>
+</div>
+
+<div class="main">
+    <div class="nav">
+        <ol class="nav-item">
+            <li><a href="index.html">首页</a></li>
+            <li class="choose-nav">
+                <select onchange="location.href='trip.html'">
+                    <option>出行方式</option>
+                    <option>飞机</option>
+                    <option>轮船</option>
+                    <option>高铁</option>
+                    <option>火车</option>
+                    <option>大巴</option>
+                </select>
+            </li>
+            <li><a href="search.html">查询</a></li>
+            <li><a href="hotels.html">酒店预订</a></li>
+            <li><a href="fund.html">温馨服务</a></li>
+            <li><a href="more.html">更多>></a></li>
+        </ol>
+    </div>
+    <div style="color: #a1a1a1;font-size: 11px;margin-top: 10px">
+        当前位置： 出行方式 > 火车出行 > <span style="color: #007DDB"> 火车出行查询</span>
+    </div>
+    <div class="box">
+        <div class="box-find">
+            <h3 class="box-title">火车售票</h3>
+            <div class="box-info">
+                <ul class="box-nav">
+                    <li style="color: #007DDB">单程</li>
+                    <li>返程</li>
+                    <li>中转</li>
+                </ul>
+                <div></div>
+                <ul style="clear: left;" class="box-from">
+                    <li style="padding-top: 50px">出发点：&emsp;<input type="text"></li>
+                    <li>到达地：&emsp;<input type="text"></li>
+                    <li>出发日期：<input type="date"></li>
+                    <li><a href="JavaScript:void(0)">查询</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="title-bar">
+        热门线路/热门路线推荐
+    </div>
+    <div class="show-text">
+        <ul>
+            <li><div>北京<span></span>上海 <em>￥ 553.0</em></div><div>上海<span></span>杭州 <em>￥ 123</em></div><div>上海<span></span>南京 <em>￥ 243</em></div></li>
+            <li><div>上海<span></span>济南 <em>￥ 342</em></div><div>上海<span></span>常州 <em>￥ 322</em></div><div>上海<span></span>合肥 <em>￥ 189</em></div></li>
+            <li><div>北京<span></span>无锡 <em>￥ 123</em></div><div>上海<span></span> 天津 <em>￥ 564</em></div><div>上海<span></span>青岛 <em>￥ 1342</em></div></li>
+        </ul>
+    </div>
+<div class="footer">
+    <div class="friend">
+        <ul >
+            <li>友情链接：</li>
+            <li><a href="https://www.ctrip.com/">携程</a></li>
+            <li><a href="https://www.suanya.cn/">智行</a></li>
+            <li><a href="https://www.qunar.com">去哪儿旅行</a></li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <p style="text-align: center">
+            <span class="mr">版权所有©2008-2020</span>
+            <span>中国驴稷网有限公司</span>
+        </p>
+    </div>
+</div>
+</body>
+</html>
